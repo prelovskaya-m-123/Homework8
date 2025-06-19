@@ -10,24 +10,24 @@ public class Main {
         arr[0] = 1;
         arr[1] = 2;
         arr[2] = 3;
-        for (int i = 0; i < arr.length - 1; i++);
+        for (int i = 0; i < arr.length; i++);
         System.out.println(Arrays.toString(arr));
-        for (int i = 0; i < fractionalNumbers.length - 1; i++);
+        for (int i = 0; i < fractionalNumbers.length; i++);
         System.out.println(Arrays.toString(fractionalNumbers));
-        for (int i = 0; i < numberOfClasses.length - 1; i++);
+        for (int i = 0; i < numberOfClasses.length; i++);
         System.out.println(Arrays.toString(numberOfClasses));
         System.out.println("Task3");
-        for (int i = arr.length - 1; i > 0; i--) {
+        for (int i = arr.length-1; i > 0; i--) {
             System.out.print(arr[i] + ", ");
         }
         System.out.print(arr[0]);
         System.out.println();
-        for (int i = fractionalNumbers.length - 1; i > 0; i--) {
+        for (int i = fractionalNumbers.length-1; i > 0; i--) {
             System.out.print(fractionalNumbers[i] + ", ");
         }
         System.out.print(fractionalNumbers[0]);
         System.out.println();
-        for (int i = numberOfClasses.length - 1; i > 0; i--) {
+        for (int i = numberOfClasses.length-1; i > 0; i--) {
             System.out.print(numberOfClasses[i] + ", ");
         }
         System.out.print(numberOfClasses[0]);
